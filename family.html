@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instructivo 8</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo1.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-buscador.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-footer.css">
+</head>
+<body>
+	<!-- Barra de navegación-->
+	<nav role="navigation" class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+			</button>
+			<img id="camera-ico" src="icons/camera.png"/><a class="navbar-brand" href="index.html">Daniel´s Studio</a>
+		</div>
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="btn-group">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Photographers<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			        	<li class="dropdown-header">Professionals</li>
+			          	<li><a href="#">Daniel Coronado</a></li>
+			          	<li><a href="#">Felipe Acuña</a></li>
+			          	<li><a href="#">Marcos Pinilla</a></li>
+			          	<li><a href="#">Matías Gutierrez</a></li>
+			          	<li class="divider"></li>
+			          	<li class="dropdown-header">Amateur Photographers</li>
+			          	<li><a href="#">Juan Perez</a></li>
+			          	<li><a href="#">Pedro Manriquez</a></li>
+			        </ul>
+			    </li>
+				<li><a href="acercade.html">About Us</a></li>
+				<li><a href="contacto.html">Contact</a></li>
+			</ul>
+			<!--<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Login</a></li>
+			</ul>-->
+			<div class="container">
+			    <div class="row">
+			        <div class="nav navbar-nav navbar-right">
+			            <form action="" class="search-form">
+			                <div class="form-group has-feedback">
+			            		<input type="text" class="form-control" name="search" id="search" placeholder="Search">
+			              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+			            	</div>
+			            </form>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</nav>
+		<!--Contenido principal-->
+		<div class="container">
+			<div class="carousel slide" data-ride="carousel" id="carousel">
+				<ul class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel"></li>
+					<li data-slide-to="1" data-target="#carousel"></li>
+					<li data-slide-to="2" data-target="#carousel"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/fa1.jpg" alt="Imagen1">
+						<div class="carousel-caption">
+							<h3 style="color: black">Familia Pino</h3>
+							<p></p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/fa2.jpg" alt="Imagen2">
+						<div class="carousel-caption">
+							<h3 style="color: black">Familia San Martín</h3>
+							<p></p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/fa3.jpg" alt="Imagen3">
+						<div class="carousel-caption">
+							<h3 style="color: black">Familia Acuña</h3>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" data-slide="prev" href="#carousel"> 
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">
+						Anterior
+					</span>
+				</a>
+				<a class="right carousel-control" data-slide="next" href="#carousel"> 
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">
+						Siguiente
+					</span>
+				</a>
+			</div>
+		</div>
+		<!--Pie de página-->
+		<div class="copyright">
+		  	<div class="container">
+		    	<div class="col-md-6">
+		      		<p>© 2017 - All Rights Reserved</p>
+		    	</div>
+		    	<div class="col-md-6">
+				     <ul class="bottom_ul">
+				       	<li><a href="https://www.facebook.com/" target="_blank"><img id="ic" src="icons/facebook.png"></a></li>
+				        <li><a href="https://www.instagram.com/" target="_blank"><img id="ic" src="icons/instagram.png"></a></li>
+				        <li><a href="https://www.twitter.com/" target="_blank"><img id="ic" src="icons/twitter.png"></a></li>
+				        <li><a href="https://www.tumblr.com/" target="_blank"><img id="ic" src="icons/tumblr.png"></a></li>
+				     </ul>
+		    	</div>
+		  	</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

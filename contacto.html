@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instructivo 8</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo1.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-buscador.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-jumbo.css">
+</head>
+<body>
+	<!-- Barra de navegación-->
+	<nav role="navigation" class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+			</button>
+			<img id="camera-ico" src="icons/camera.png"/><a class="navbar-brand" href="index.html">Daniel´s Studio</a>
+		</div>
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="btn-group">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Photographers<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			        	<li class="dropdown-header">Professionals</li>
+			          	<li><a href="#">Daniel Coronado</a></li>
+			          	<li><a href="#">Felipe Acuña</a></li>
+			          	<li><a href="#">Marcos Pinilla</a></li>
+			          	<li><a href="#">Matías Gutierrez</a></li>
+			          	<li class="divider"></li>
+			          	<li class="dropdown-header">Amateur Photographers</li>
+			          	<li><a href="#">Juan Perez</a></li>
+			          	<li><a href="#">Pedro Manriquez</a></li>
+			        </ul>
+			    </li>
+				<li><a href="acercade.html">About Us</a></li>
+				<li><a href="contacto.html">Contact</a></li>
+			</ul>
+			<!--<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Login</a></li>
+			</ul>-->
+			<div class="container">
+			    <div class="row">
+			        <div class="nav navbar-nav navbar-right">
+			            <form action="" class="search-form">
+			                <div class="form-group has-feedback">
+			            		<input type="text" class="form-control" name="search" id="search" placeholder="Search">
+			              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+			            	</div>
+			            </form>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</nav>
+		<!--Contenido principal-->
+		<div class="jumbotron" id="jum">
+			<h1>Reserva con anticipación!</h1>
+			<div class="container">
+				<div class="row">
+			    	<div class="col-md-4">
+						<div class="form_main">
+			                <h4 class="heading"><strong>Envíanos tus datos</strong></h4>
+			                <div class="form">
+				                <form action="" method="post" id="contactFrm" name="contactFrm">
+				                    <input type="text" required="" placeholder="Ingrese su nombre completo" value="" name="name" class="txt">
+				                    <input type="text" required="" placeholder="Ingrese su n° de telefono" value="" name="mob" class="txt">
+				                    <input type="text" required="" placeholder="Ingrese un e-mail de contacto" value="" name="email" class="txt">
+				       				
+				                    <select name="photo">
+				                    	<option value="" selected="selected">- Elige al fotógrafo -</option>
+				                    	<option value="1">Daniel Coronado</option>
+				                    	<option value="2">Felipe Acuña</option>
+				                    	<option value="3">Marcos Pinilla</option>
+				                    	<option value="4">Matías Gutierrez</option>
+				                    </select>
+				                    <input type="submit" value="Envíar" name="submit" class="txt2">
+				                </form>
+			            	</div>
+			            </div>
+			        </div>
+			        <div>
+			        	<h3>Nos pondremos en contacto a la brevedad!</h3>
+			        	<h3>¡Gracias por preferirnos!</h3>
+			        </div>
+				</div>
+			</div>
+		</div>
+		<!--Pie de página-->
+		<div class="copyright">
+		  	<div class="container">
+		    	<div class="col-md-6">
+		      		<p>© 2017 - All Rights Reserved</p>
+		    	</div>
+		    	<div class="col-md-6">
+				     <ul class="bottom_ul">
+				       	<li><a href="https://www.facebook.com/" target="_blank"><img id="ic" src="icons/facebook.png"></a></li>
+				        <li><a href="https://www.instagram.com/" target="_blank"><img id="ic" src="icons/instagram.png"></a></li>
+				        <li><a href="https://www.twitter.com/" target="_blank"><img id="ic" src="icons/twitter.png"></a></li>
+				        <li><a href="https://www.tumblr.com/" target="_blank"><img id="ic" src="icons/tumblr.png"></a></li>
+				     </ul>
+		    	</div>
+		  	</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

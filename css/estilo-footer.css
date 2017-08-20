@@ -1,0 +1,53 @@
+.copyright { 
+	min-height:40px; 
+	background-color: #6E3200;
+	opacity: 0.7;
+	clear: both;
+}
+
+.copyright p { 
+	text-align:left; 
+	color:#FFF; 
+	padding:10px 0; 
+	margin-bottom:0px;
+}
+
+p { 
+	font-size:12px; 
+	color:#FFF; 
+	line-height:20px;
+}
+
+p span { 
+	display:block; 
+	color:#8f8f8f;
+}
+
+.bottom_ul { 
+	list-style-type:none; 
+	float:right; 
+	margin-bottom:0px;
+}
+
+.bottom_ul li { 
+	float:left; 
+	line-height:40px;
+}
+
+.bottom_ul li:after { 
+	content:"/"; 
+	color:#FFF; 
+	margin-right:8px; 
+	margin-left:8px;
+}
+
+.bottom_ul li a { 
+	color:#FFF;  
+	font-size:12px;
+}
+
+
+#ic {
+	width: 30px;
+	height: 30px;
+}
